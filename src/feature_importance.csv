@@ -1,0 +1,484 @@
+Feature,Importance
+num__milage,0.4713075291031345
+num__horsepower,0.24348721858721367
+num__model_year,0.12868438683875474
+num__displacement,0.02209015116904918
+num__gears,0.017801774375540605
+cat__brand_Porsche,0.01610648378257624
+num__cylinders,0.014312628074508034
+cat__fuel_type_Diesel,0.005229783091354972
+cat__brand_Mercedes-Benz,0.004816587598764434
+cat__brand_Lamborghini,0.004431446659166884
+cat__ext_col_Black,0.002442827272407943
+cat__int_col_Black,0.0023626171715704198
+num__turbo,0.0021042944383943053
+cat__transmission_type_Manual,0.0018806887240172122
+cat__brand_BMW,0.0018777513885090613
+cat__ext_col_Silver,0.001869912442405687
+cat__int_col_Gray,0.0018178709051430526
+cat__brand_Toyota,0.0018006678708496439
+cat__fuel_type_Gasoline,0.0017321180067546833
+cat__accident_None reported,0.001665083507991801
+cat__ext_col_White,0.001654609983062846
+cat__brand_Cadillac,0.0016456216267847284
+cat__accident_At least 1 accident or damage reported,0.0016189879786465704
+cat__int_col_Beige,0.0015760042771174039
+cat__brand_Lexus,0.001573405009757259
+cat__brand_Bentley,0.0015726419371608741
+cat__brand_Rolls-Royce,0.0014824537557304083
+cat__ext_col_Gray,0.0013708573326576545
+cat__brand_Chrysler,0.001348336551289133
+cat__ext_col_Blue,0.001331655830751081
+cat__brand_Honda,0.001284643880328034
+cat__brand_Ferrari,0.0012800724638256308
+cat__brand_Ford,0.0012380959794424577
+cat__brand_Dodge,0.0011809948381980445
+cat__brand_RAM,0.001148037795189733
+cat__transmission_type_Automatic,0.001111414746262566
+cat__brand_Nissan,0.001088291804365701
+cat__brand_Land,0.0010701243719205985
+cat__brand_Chevrolet,0.000982945858181368
+cat__brand_Hyundai,0.0009585187328995875
+cat__ext_col_Red,0.0009532694465321554
+cat__brand_Jeep,0.0009114517302409237
+cat__transmission_type_nan,0.0008535739992095706
+cat__brand_Lincoln,0.0008404654929876012
+cat__int_col_Brown,0.0008042962772822896
+cat__clean_title_nan,0.0007485255695866189
+cat__clean_title_Yes,0.0007404622887883682
+cat__brand_Mitsubishi,0.0006941687941163507
+cat__int_col_Brandy,0.000679944542217139
+cat__fuel_type_nan,0.0006616419161191969
+cat__int_col_–,0.0006561655357440558
+cat__brand_Maserati,0.0006442810582436383
+cat__brand_Jaguar,0.0006100894430669115
+cat__ext_col_Matte White,0.000589656235586516
+cat__ext_col_Beige,0.0005838340708250422
+cat__int_col_White,0.0005811595202196579
+cat__fuel_type_E85 Flex Fuel,0.0005636217413928928
+cat__fuel_type_Hybrid,0.0005285853665764625
+cat__int_col_Red,0.0005223776830137228
+cat__accident_nan,0.0005180055983581669
+cat__brand_Audi,0.0004765842746934254
+cat__ext_col_Iridium Silver Metallic,0.00046201473420900594
+cat__ext_col_Green,0.00044380478448842296
+cat__brand_Acura,0.000442722327860586
+cat__ext_col_Brown,0.0004291632094542884
+cat__brand_Pontiac,0.0004209548446252758
+cat__ext_col_Gold,0.0004054984481948297
+cat__brand_GMC,0.0003978623816074206
+cat__brand_Mazda,0.00038430473104996847
+cat__brand_Volkswagen,0.0003516306117485611
+cat__brand_INFINITI,0.0003372787226406036
+cat__ext_col_–,0.00032817362022072327
+cat__brand_Hummer,0.0003103861804311707
+cat__brand_McLaren,0.00030893457242772254
+cat__int_col_Nero Ade,0.00029055360769894383
+cat__brand_Kia,0.00028539311691265805
+cat__int_col_Orange,0.0002618889966420605
+cat__brand_Subaru,0.00024743847511557053
+cat__ext_col_Orange,0.00024127087950366862
+cat__brand_Volvo,0.00020794366015805963
+cat__ext_col_Yellow,0.00019040063348249722
+cat__ext_col_China Blue,0.0001864005733200162
+cat__brand_Aston,0.0001567392664566106
+cat__ext_col_Tempest,0.0001524196716534582
+cat__brand_Tesla,0.00014801209668442887
+cat__int_col_Ebony,0.0001450511733535592
+cat__int_col_Tan,0.0001409846573110825
+cat__brand_Buick,0.00013330273125401518
+cat__int_col_Black / Brown,0.0001299907209730054
+cat__int_col_Blue,0.0001250546773012119
+cat__ext_col_Blue Caelum,0.00012265331360988214
+cat__int_col_Cobalt Blue,0.00011942450622285162
+cat__brand_MINI,0.00011828447006432101
+cat__int_col_Linen,0.0001065269672596274
+cat__fuel_type_Plug-In Hybrid,9.622553736133966e-05
+cat__brand_Alfa,8.23528895466976e-05
+cat__int_col_Silver,7.408509700809366e-05
+cat__int_col_Jet Black,7.254717082539481e-05
+cat__ext_col_Oxford White,7.247590290409478e-05
+cat__brand_Genesis,7.23443590901436e-05
+cat__ext_col_Brilliant Silver Metallic,7.068354377401471e-05
+cat__ext_col_Super Black,6.513181219892706e-05
+cat__ext_col_Dark Sapphire,5.4462263779260256e-05
+cat__ext_col_designo Diamond White Metallic,5.346467697966468e-05
+cat__ext_col_Dark Gray Metallic,5.0261866214066775e-05
+cat__brand_Saturn,4.871419140831647e-05
+cat__ext_col_Bright White Clearcoat,4.834980547147817e-05
+cat__ext_col_Purple,4.7469969029686526e-05
+cat__int_col_Graphite,4.673685103542808e-05
+cat__ext_col_Designo Magno Matte,4.469325327460077e-05
+cat__ext_col_Crystal White Pearl,3.902361781387154e-05
+cat__ext_col_Granite Crystal Clearcoat Metallic,3.8053776186080276e-05
+cat__int_col_Satin Black,3.805107539419263e-05
+cat__ext_col_Yulong,3.6740938026004464e-05
+cat__int_col_Charcoal,3.281813332313594e-05
+cat__ext_col_Titanium Silver,3.225198389107493e-05
+cat__ext_col_Blu,3.179012175266334e-05
+cat__ext_col_Onyx Black,3.153312032997375e-05
+cat__int_col_Dark Auburn,3.044238522854204e-05
+cat__brand_Plymouth,3.034820274581123e-05
+cat__ext_col_Diamond Black,3.0333506379741133e-05
+cat__ext_col_White Knuckle Clearcoat,2.982247531092821e-05
+cat__ext_col_Ultra White,2.7173620703071914e-05
+cat__ext_col_Black Clearcoat,2.6859452604458e-05
+cat__int_col_Mocha,2.64232688126677e-05
+cat__brand_Lotus,2.4372724510099575e-05
+cat__ext_col_Fuji White,2.4308549141312306e-05
+cat__int_col_Black / Express Red,2.4156923660545588e-05
+cat__int_col_Charles Blue,2.3747344258366624e-05
+cat__ext_col_Daytona Gray Pearl Effect,2.3499340151147083e-05
+cat__int_col_Titan Black,2.241349891397725e-05
+cat__brand_Scion,2.1912476297275447e-05
+cat__int_col_Gold,2.1466986874399577e-05
+cat__int_col_Tupelo,2.146557039189669e-05
+cat__ext_col_Gentian Blue Metallic,2.13595596484167e-05
+cat__ext_col_Summit White,2.133375928746875e-05
+cat__ext_col_Silver Mist,2.1205297039772185e-05
+cat__ext_col_Alpine White,2.1024370000513515e-05
+cat__ext_col_DB Black Clearcoat,2.0656913488892764e-05
+cat__ext_col_Silver Ice Metallic,1.990050441608738e-05
+cat__ext_col_Flame Red Clearcoat,1.85877426778457e-05
+cat__ext_col_Agate Black Metallic,1.801638960864849e-05
+cat__ext_col_Balloon White,1.7964266390520753e-05
+cat__brand_smart,1.776743019790871e-05
+cat__int_col_Green,1.7638664385353237e-05
+cat__ext_col_Infrared Tintcoat,1.7352066573621056e-05
+cat__ext_col_Sparkling Silver,1.566422374297378e-05
+cat__ext_col_Black Raven,1.5435886199886214e-05
+cat__ext_col_Gecko Pearlcoat,1.5014673685745289e-05
+cat__int_col_Global Black,1.4576848494601324e-05
+cat__ext_col_Daytona Gray Pearl Effect w/ Black Roof,1.4575319160861319e-05
+cat__ext_col_Manhattan Noir Metallic,1.4409007181354978e-05
+cat__int_col_Canberra Beige,1.4155100539799758e-05
+cat__int_col_BLACK,1.4000904232764065e-05
+cat__ext_col_Imperial Blue Metallic,1.377579176220046e-05
+cat__ext_col_Reflex Silver,1.3621224676435865e-05
+cat__ext_col_Shimmering Silver,1.3577900382530876e-05
+cat__ext_col_Rosso Mars Metallic,1.3562449325850422e-05
+cat__int_col_Beluga,1.3342879666305078e-05
+cat__ext_col_Frozen Dark Silver Metallic,1.3147176436705835e-05
+cat__ext_col_Volcano Grey Metallic,1.2816022453718573e-05
+cat__int_col_Nero,1.2514479663609554e-05
+cat__ext_col_Glacier White,1.2502592313815825e-05
+cat__ext_col_Aurora Black,1.1884207100078484e-05
+cat__ext_col_Kemora Gray Metallic,1.1566688922509284e-05
+cat__int_col_Macchiato,1.1488868347464021e-05
+cat__ext_col_Sting Gray Clearcoat,1.1344653178101887e-05
+cat__ext_col_Northsky Blue Metallic,1.103112413242611e-05
+cat__ext_col_Santorini Black Metallic,1.0794839204765164e-05
+cat__ext_col_Black Sapphire Metallic,1.0688907091945688e-05
+cat__brand_Rivian,1.0608672017245946e-05
+cat__int_col_Yellow,1.0601306830570223e-05
+cat__int_col_Dark Gray,1.0528344150738787e-05
+cat__int_col_Charcoal Black,1.0162721880200429e-05
+cat__int_col_Espresso,1.01117750240316e-05
+cat__ext_col_Selenite Gray Metallic,9.306048009823393e-06
+cat__ext_col_Quartz Blue Pearl,9.145312123832363e-06
+cat__ext_col_Lizard Green,9.045339369673547e-06
+cat__ext_col_Soul Red Crystal Metallic,9.000742896859025e-06
+cat__ext_col_Obsidian Black Metallic,8.843911410152945e-06
+cat__int_col_Diesel Gray / Black,8.578784767822181e-06
+cat__ext_col_Arctic Gray Metallic,8.262359525043732e-06
+cat__brand_Lucid,8.124746377478904e-06
+cat__ext_col_Grigio Nimbus,8.119579779192993e-06
+cat__int_col_Oyster/Black,7.909913007094562e-06
+cat__ext_col_Crystal Black Silica,7.792345138913632e-06
+cat__ext_col_Delmonico Red Pearlcoat,7.668711384022668e-06
+cat__ext_col_Ruby Flare Pearl,7.581697462390297e-06
+cat__int_col_Orchid,7.50746203116459e-06
+cat__ext_col_Mango Tango Pearlcoat,7.344072641027382e-06
+cat__ext_col_Nero Daytona,7.295901251398535e-06
+cat__int_col_Blk,7.295245962966048e-06
+cat__ext_col_Billet Clearcoat Metallic,7.273138457685709e-06
+cat__ext_col_Firecracker Red Clearcoat,7.099481168473468e-06
+cat__ext_col_Apex Blue,7.092422244500951e-06
+cat__ext_col_Twilight Blue Metallic,7.028380717472655e-06
+cat__ext_col_Orca Black Metallic,6.967047819645764e-06
+cat__ext_col_Midnight Black,6.489393682113917e-06
+cat__ext_col_GT SILVER,6.418279911177715e-06
+cat__int_col_Silk Beige/Espresso Brown,6.366853004434272e-06
+cat__ext_col_Sandstone Metallic,6.30253287776117e-06
+cat__int_col_BEIGE,6.213665210738098e-06
+cat__ext_col_Patriot Blue Pearlcoat,6.188560663885789e-06
+cat__brand_Suzuki,6.080105053731431e-06
+cat__ext_col_Magnetite Black Metallic,5.9711278548093865e-06
+cat__ext_col_Sunset Drift Chromaflair,5.7943364811184095e-06
+cat__ext_col_Crimson Red Tintcoat,5.648784989396386e-06
+cat__ext_col_Custom Color,5.640731428711041e-06
+cat__int_col_Rhapsody Blue,5.623568701557071e-06
+cat__ext_col_Liquid Platinum,5.435882520290813e-06
+cat__ext_col_Shadow Gray Metallic,5.315163109035914e-06
+cat__brand_FIAT,5.266537157161696e-06
+cat__ext_col_White Platinum Tri-Coat Metallic,5.211529819935462e-06
+cat__ext_col_Dark Ash Metallic,5.1597689662428244e-06
+cat__ext_col_Ebony Black,5.1179465281985496e-06
+cat__ext_col_Santorin Black,5.09697006061142e-06
+cat__int_col_Black Onyx,5.057945101793834e-06
+cat__int_col_Grace White,5.006834418444819e-06
+cat__ext_col_Pure White,4.9191100254945625e-06
+cat__int_col_Porpoise,4.883089695891923e-06
+cat__int_col_Parchment,4.74999362217937e-06
+cat__ext_col_Platinum Gray Metallic,4.675308552928274e-06
+cat__int_col_Portland,4.640579733976793e-06
+cat__int_col_Beluga Hide,4.6125388385731795e-06
+cat__int_col_Sakhir Orange/Black,4.536469928076144e-06
+cat__ext_col_Portofino Gray,4.515484760677395e-06
+cat__ext_col_designo Diamond White,4.490594673719778e-06
+cat__int_col_Anthracite,4.451794733378906e-06
+cat__ext_col_Velvet Red Pearlcoat,4.267211392294129e-06
+cat__int_col_Black/Red,4.244685055259887e-06
+cat__ext_col_Midnight Silver Metallic,4.2409712929542285e-06
+cat__int_col_Walnut,3.926729869848445e-06
+cat__brand_Karma,3.867775298289596e-06
+cat__ext_col_Glacial White Pearl,3.831498554388116e-06
+cat__int_col_Shara Beige,3.81751753021885e-06
+cat__ext_col_Ultra Black,3.801269819253552e-06
+cat__int_col_Black / Saddle,3.789179601695251e-06
+cat__ext_col_Magnetite Gray Metallic,3.7604509170539323e-06
+cat__ext_col_Mythos Black Metallic,3.7159032794280786e-06
+cat__ext_col_Midnight Black Metallic,3.691561828943175e-06
+cat__ext_col_Rosso Corsa,3.6157215191537e-06
+cat__int_col_Dark Ash,3.5438552634537434e-06
+cat__ext_col_Carbonized Gray Metallic,3.540309947946039e-06
+cat__int_col_Ceramic,3.4793768548998245e-06
+cat__ext_col_Atomic Silver,3.4716721282344675e-06
+cat__ext_col_Granite,3.4599563687007525e-06
+cat__int_col_Camel,3.4277561711103756e-06
+cat__int_col_Gray w/Blue Bolsters,3.2872883996337117e-06
+cat__ext_col_Platinum White Pearl,3.281537666950095e-06
+cat__ext_col_Isle of Man Green Metallic,3.2631539602028265e-06
+cat__ext_col_Majestic Black Pearl,3.2523079036226553e-06
+cat__int_col_Platinum,3.10985189464041e-06
+cat__ext_col_Mythos Black,3.09388041998986e-06
+cat__int_col_Oyster W/Contrast,3.076110517596728e-06
+cat__int_col_Black/Saddle Brown,3.0696844496781797e-06
+cat__ext_col_Black Cherry,3.0673331496735938e-06
+cat__ext_col_Satin Steel Metallic,3.0669019427728365e-06
+cat__ext_col_Radiant Red Metallic II,2.9215994684368796e-06
+cat__ext_col_Polymetal Gray Metallic,2.8999193240790805e-06
+cat__int_col_Medium Stone,2.858923503754398e-06
+cat__ext_col_Ice,2.792266022772436e-06
+cat__brand_Saab,2.7633922860989257e-06
+cat__int_col_Black / Stone Grey,2.703453860218155e-06
+cat__ext_col_White Frost Tri-Coat,2.696612106950279e-06
+cat__brand_Polestar,2.69580557320529e-06
+cat__ext_col_Deep Crystal Blue Mica,2.683067168970442e-06
+cat__int_col_Ash,2.6659135960725763e-06
+cat__ext_col_Hyper Red,2.6606010053349403e-06
+cat__int_col_Black w/Red Stitching,2.6291221779189903e-06
+cat__ext_col_Ametrin Metallic,2.6007302628394772e-06
+cat__ext_col_Cajun Red Tintcoat,2.5313633191695176e-06
+cat__ext_col_Bronze Dune Metallic,2.4959143018017516e-06
+cat__ext_col_Python Green,2.4376783483537788e-06
+cat__ext_col_Caviar,2.4238412067649184e-06
+cat__int_col_Medium Pewter,2.3615739731552814e-06
+cat__int_col_Parchment.,2.349133842464033e-06
+cat__ext_col_Snow White Pearl,2.2896802075792877e-06
+cat__int_col_Mesa,2.2448302656306657e-06
+cat__int_col_Slate,2.229032919883123e-06
+cat__ext_col_Pink,2.211129859421195e-06
+cat__ext_col_Glacier,2.190771373021003e-06
+cat__int_col_Saddle Brown,2.180273916102213e-06
+cat__ext_col_Jet Black Mica,2.168122750709414e-06
+cat__ext_col_Carbon Black Metallic,2.1435973240957703e-06
+cat__ext_col_Alfa White,2.0928930924069754e-06
+cat__ext_col_BLUE,2.0872558559418574e-06
+cat__int_col_Macchiato/Magmagrey,2.085165670285443e-06
+cat__int_col_Macchiato Beige/Black,2.0791406595735768e-06
+cat__ext_col_Verde,2.06401795519634e-06
+cat__int_col_Rioja Red,2.053943178529464e-06
+cat__int_col_Kyalami Orange,2.033940265078675e-06
+cat__ext_col_Snowflake White Pearl,2.024269082393558e-06
+cat__ext_col_Lunar Silver Metallic,2.0144467746366094e-06
+cat__ext_col_Chalk,1.978445736781849e-06
+cat__ext_col_Eiger Grey,1.9407187125312794e-06
+cat__int_col_Agave Green,1.916668703484229e-06
+cat__ext_col_Santorini Black,1.9015480634544657e-06
+cat__ext_col_Ebony Twilight Metallic,1.8749232288434157e-06
+cat__ext_col_Anthracite Blue Metallic,1.8451181976091083e-06
+cat__ext_col_Siren Red Tintcoat,1.8323282077714884e-06
+cat__ext_col_Nebula Gray Pearl,1.7962348416869525e-06
+cat__ext_col_Selenite Grey Metallic,1.7952548836601145e-06
+cat__ext_col_Red Multi,1.7901220396440816e-06
+cat__ext_col_BLACK,1.779492360763967e-06
+cat__ext_col_Glacier Blue Metallic,1.7777340950837905e-06
+cat__ext_col_Horizon Blue,1.704903300818667e-06
+cat__int_col_Black/Gun Metal,1.6917793968026953e-06
+cat__ext_col_Aventurine Green Metallic,1.68250783857248e-06
+cat__ext_col_Frozen White,1.6739375982671453e-06
+cat__int_col_Canberra Beige/Black,1.6724481917684252e-06
+cat__int_col_Black / Gray,1.6593909441062788e-06
+cat__ext_col_MANUFAKTUR Diamond White Bright,1.6326207716170424e-06
+cat__ext_col_Quicksilver Metallic,1.6168454844252937e-06
+cat__ext_col_Volcanic Orange,1.5971706947040306e-06
+cat__ext_col_Rich Garnet Metallic,1.563852173720372e-06
+cat__ext_col_Glacier Silver Metallic,1.5548232824733725e-06
+cat__ext_col_Dark Matter Metallic,1.5301360452562293e-06
+cat__int_col_Sandstone,1.5242665195111886e-06
+cat__ext_col_Deep Blue Metallic,1.5241480885524888e-06
+cat__ext_col_Chronos Gray Metallic,1.5139583629392469e-06
+cat__ext_col_Blue Reflex Mica,1.5002453545276308e-06
+cat__ext_col_Ice Silver Metallic,1.486736212381908e-06
+cat__ext_col_Granite Crystal Metallic Clearcoat,1.462265526878997e-06
+cat__ext_col_Daytona Gray,1.4525652692883141e-06
+cat__ext_col_Billet Silver Metallic Clearcoat,1.4322909395870875e-06
+cat__ext_col_C / C,1.4116219599864974e-06
+cat__ext_col_designo Diamond White Bright,1.395757267478097e-06
+cat__ext_col_Thunder Gray,1.3789245724538727e-06
+cat__int_col_Cloud,1.3765863480572396e-06
+cat__ext_col_Magnetic Black,1.3612229106130408e-06
+cat__ext_col_Carpathian Grey,1.3486094425731165e-06
+cat__ext_col_Silver Zynith,1.3437804496107983e-06
+cat__int_col_Navy Pier,1.3344009560476288e-06
+cat__int_col_Tan/Ebony,1.3137516144871658e-06
+cat__ext_col_Octane Red Pearlcoat,1.311445150842566e-06
+cat__ext_col_Silky Silver,1.2875099954440307e-06
+cat__ext_col_Deep Black Pearl Effect,1.2841622336456464e-06
+cat__ext_col_Tan,1.2819695205533346e-06
+cat__ext_col_Silver Radiance,1.2730194653314373e-06
+cat__ext_col_Wolf Gray,1.2378693861422416e-06
+cat__ext_col_Antimatter Blue Metallic,1.2257716472097772e-06
+cat__int_col_Shale,1.21304700252707e-06
+cat__ext_col_Jungle Green,1.2126241434232036e-06
+cat__int_col_Graphite w/Gun Metal,1.2030056783215333e-06
+cat__ext_col_Hampton Gray,1.2017501872399953e-06
+cat__int_col_Chestnut,1.1941060368173432e-06
+cat__ext_col_Ibis White,1.177569667555071e-06
+cat__ext_col_Maximum Steel Metallic,1.173858290436828e-06
+cat__ext_col_Pristine White,1.1677647721496108e-06
+cat__ext_col_Magnetic Gray Metallic,1.1632448721105135e-06
+cat__ext_col_Brilliant Black,1.1443484290351519e-06
+cat__int_col_Hotspur,1.1270131526147867e-06
+cat__int_col_White / Brown,1.123896630531517e-06
+cat__ext_col_Cobra Beige Metallic,1.1016927531750407e-06
+cat__ext_col_Nautical Blue Pearl,1.099586506770223e-06
+cat__ext_col_Yulong White,1.0899746913572708e-06
+cat__ext_col_Eminent White Pearl,1.0855095695086834e-06
+cat__ext_col_Shoreline Blue Pearl,1.0675732715048146e-06
+cat__brand_Mercury,1.022585157386136e-06
+cat__ext_col_Gun Metallic,1.0003865344766545e-06
+cat__ext_col_Navarre Blue,9.994081684606194e-07
+cat__ext_col_Pacific Blue Metallic,9.788088000359756e-07
+cat__ext_col_Magnetic Metallic,9.473694046318074e-07
+cat__ext_col_Firenze Red Metallic,9.442974535860892e-07
+cat__ext_col_Dark Moss,9.385577304384417e-07
+cat__int_col_Titan Black / Quarzit,9.383460718283458e-07
+cat__ext_col_Iridescent Pearl Tricoat,9.100943281939884e-07
+cat__ext_col_Carrara White Metallic,8.961326163730666e-07
+cat__ext_col_Obsidian,8.744807184128112e-07
+cat__ext_col_Firenze Red,8.689972021123128e-07
+cat__ext_col_Typhoon Gray Metallic,8.639927558507602e-07
+cat__ext_col_Black Forest Green,8.626336764319706e-07
+cat__ext_col_Passion Red,8.529448621233522e-07
+cat__ext_col_Moonlight Cloud,8.516583854749526e-07
+cat__int_col_Medium Dark Slate,8.506286966394844e-07
+cat__int_col_Sarder Brown,8.366929116069671e-07
+cat__ext_col_Emerald Green Metallic,8.317273780368825e-07
+cat__ext_col_White Diamond Tri-Coat,8.146217254697286e-07
+cat__ext_col_Stellar Black Metallic,8.017833376464057e-07
+cat__ext_col_Rapid Red Metallic Tinted Clearcoat,7.839017433689943e-07
+cat__int_col_Nougat Brown,7.823787127693552e-07
+cat__int_col_Camel Leather,7.673348521552135e-07
+cat__ext_col_Typhoon Gray,7.556754766434412e-07
+cat__ext_col_Black Noir Pearl,7.232522734655672e-07
+cat__ext_col_Quartzite Grey Metallic,7.227105768005532e-07
+cat__int_col_Medium Earth Gray,7.166330018936329e-07
+cat__int_col_Aragon Brown,6.994458626708477e-07
+cat__int_col_Amber,6.887108428840753e-07
+cat__ext_col_Oryx White Prl,6.838403997205418e-07
+cat__int_col_Adrenaline Red,6.805296056123144e-07
+cat__ext_col_Phytonic Blue Metallic,6.556217056058037e-07
+cat__int_col_Ebony Black,6.151679820698659e-07
+cat__ext_col_Stone Gray Metallic,6.131952944319005e-07
+cat__int_col_Boulder,6.127996158700018e-07
+cat__ext_col_Mosaic Black Metallic,6.035739739493374e-07
+cat__ext_col_Matador Red Mica,5.956753007482049e-07
+cat__ext_col_Burnished Bronze Metallic,5.902620692360677e-07
+cat__ext_col_Machine Gray Metallic,5.832167897980894e-07
+cat__ext_col_Iconic Silver Metallic,5.784942518947726e-07
+cat__int_col_Mistral Gray / Raven,5.744884448456858e-07
+cat__ext_col_White Clearcoat,5.733978377904454e-07
+cat__ext_col_Glacier White Metallic,5.615802636969221e-07
+cat__int_col_Classic Red,5.587780460895583e-07
+cat__ext_col_Graphite Grey Metallic,5.560347297116828e-07
+cat__int_col_Light Slate,5.529346722202509e-07
+cat__int_col_Tan/Ebony/Ebony,5.491131138686118e-07
+cat__int_col_Medium Ash Gray,5.195217581489027e-07
+cat__int_col_Roast,4.966216314853795e-07
+cat__ext_col_Graphite Grey,4.921632930263687e-07
+cat__ext_col_Sonic Silver Metallic,4.82755432855635e-07
+cat__ext_col_Twilight Black,4.7611711976273415e-07
+cat__ext_col_Navarra Blue Metallic,4.6355465355826786e-07
+cat__ext_col_Rift Metallic,4.5832980732432245e-07
+cat__ext_col_Dark Graphite Metallic,4.469695851711906e-07
+cat__ext_col_Silver Flare Metallic,4.3964045297823807e-07
+cat__int_col_WHITE,4.136162828789015e-07
+cat__int_col_Silk Beige/Black,4.1134027950852315e-07
+cat__ext_col_Navarra Blue,4.0955052563001973e-07
+cat__ext_col_Black Obsidian,4.069125099816138e-07
+cat__ext_col_Red Obsession,4.0227747691341156e-07
+cat__int_col_Dark Galvanized,4.018740238888625e-07
+cat__ext_col_Magnetic Gray Clearcoat,3.932766232564116e-07
+cat__ext_col_Hydro Blue Pearlcoat,3.855387849252188e-07
+cat__ext_col_Lunare White Metallic,3.624857131308532e-07
+cat__ext_col_Metallic,3.6183739968326495e-07
+cat__int_col_Deep Garnet,3.615243836179287e-07
+cat__ext_col_Alta White,3.581725790715162e-07
+cat__int_col_Ice,3.47042861406029e-07
+cat__int_col_Pearl Beige,3.248083732479684e-07
+cat__int_col_Cocoa / Dune,3.153735087464088e-07
+cat__ext_col_Shadow Black,3.1330086213552684e-07
+cat__int_col_Very Light Cashmere,3.033756298697777e-07
+cat__ext_col_Tungsten Metallic,2.9578616531647966e-07
+cat__ext_col_Florett Silver,2.8741358728439956e-07
+cat__ext_col_Cayenne Red Tintcoat,2.8645210610861275e-07
+cat__ext_col_Portofino Blue Metallic,2.660487343926462e-07
+cat__int_col_Saiga Beige,2.583443054927317e-07
+cat__int_col_Ebony/Light Oyster Stitch,2.5693552923915346e-07
+cat__ext_col_Crystal Black,2.535154542309851e-07
+cat__ext_col_Barcelona Red,2.5106174517593817e-07
+cat__ext_col_Rosso,2.2772463650585952e-07
+cat__int_col_Chateau,2.082890330843673e-07
+cat__int_col_Tension,2.0816357142036034e-07
+cat__int_col_Deep Chestnut,2.0699115115365998e-07
+cat__ext_col_Silician Yellow,2.0187174610941048e-07
+cat__ext_col_Kodiak Brown Metallic,1.9456787936347974e-07
+cat__int_col_Sport,1.9261160205307394e-07
+cat__int_col_Almond Beige,1.7613450197550145e-07
+cat__int_col_Rock Gray,1.3959737497832889e-07
+cat__int_col_Carbon Black,1.2620521092397862e-07
+cat__ext_col_Lunar Blue Metallic,1.2180174803720267e-07
+cat__ext_col_Quartz White,1.2007032671222748e-07
+cat__int_col_Ebony / Pimento,1.0506153784233526e-07
+cat__ext_col_Nero Noctis,8.358562114261652e-08
+cat__ext_col_Wind Chill Pearl,8.321780684550936e-08
+cat__int_col_Bianco Polar,8.042550852239519e-08
+cat__int_col_Cappuccino,7.508506062105563e-08
+cat__ext_col_Star White,7.217964988470913e-08
+cat__ext_col_Ruby Red Metallic Tinted Clearcoat,6.699099354754598e-08
+cat__int_col_ORANGE,6.600872793244663e-08
+cat__int_col_Pimento / Ebony,6.501147547078887e-08
+cat__ext_col_Vik Black,5.938528935365451e-08
+cat__int_col_Obsidian Black,5.650443185552078e-08
+cat__ext_col_Pacific Blue,5.613520331011677e-08
+cat__ext_col_Red Quartz Tintcoat,5.3800486202892966e-08
+cat__ext_col_Arctic White,5.1751738280959454e-08
+cat__ext_col_Vega Blue,4.977453247680254e-08
+cat__ext_col_Dazzling White,4.919705569120825e-08
+cat__int_col_Mountain Brown,4.58630859982251e-08
+cat__int_col_Ebony.,4.370909988046331e-08
+cat__int_col_Whisper Beige,4.3460896423893107e-08
+cat__ext_col_Jupiter Red,3.5796789172699505e-08
+cat__ext_col_Ironman Silver,3.327187186909179e-08
+cat__ext_col_Eiger Grey Metallic,3.1607629595975504e-08
+cat__ext_col_Chronos Gray,3.0712826418118355e-08
+cat__ext_col_Super White,2.4179893878628187e-08
+cat__ext_col_Arancio Borealis,2.4168874469314168e-08
+cat__int_col_Sand Beige,2.1008666034209675e-08
+cat__ext_col_Dark Moon Blue Metallic,6.13847036048015e-09
+cat__ext_col_Carpathian Grey Premium Metallic,2.9969975446752592e-09
+cat__ext_col_Onyx,2.7499501492751268e-09
+cat__brand_Maybach,7.611875890890038e-10
+cat__ext_col_Bianco Icarus Metallic,0.0
