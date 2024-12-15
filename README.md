@@ -1,32 +1,68 @@
-# Final dataset
-https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset
+# **Used Car Price Prediction**
 
+This project builds a **Machine Learning pipeline** to predict used car prices based on vehicle features. Using models like **XGBoost, Random Forest, Ridge, and Lasso regression**, the pipeline optimizes predictive performance across **MAE, RMSE, and R²** metrics. The dataset was sourced from **Kaggle** and preprocessed with robust techniques, including multivariate imputation and scaling.
 
-The steps
-**Midterm:**
-1. Exploratory Data Analysis (EDA): you need to understand your data and verify that it doesn't contain errors
-- do as much EDA as you can!
-2. Split the data into different sets: most often the sets are train, validation, and test (or holdout)
-- practitioners often make errors in this step!
-- you can split the data randomly, based on groups, based on time, or any other non-standard way if necessary to answer your ML question
-3. Preprocess the data: ML models only work if X and Y are numbers! Some ML models additionally require each feature to have 0 mean and 1 standard deviation (standardized features)
-- often the original features you get contain strings (for example a gender feature would contain 'male', 'female', 'non-binary', 'unknown') which needs to be transformed into numbers
-- often the features are not standardized (e.g., age is between 0 and 100) but it needs to be standardized
---------------------------------------------------------------------------------------------------------
-**Final**
-4. Choose an evaluation metric: depends on the priorities of the stakeholders
-- often requires quite a bit of thinking and ethical considerations
-5. Choose one or more ML techniques: it is highly recommended that you try multiple models
-- start with simple models like linear or logistic regression
-- try also more complex models like nearest neighbors, support vector machines, random forest, etc.
-6. Tune the hyperparameters of your ML models (aka cross-validation)
-- ML techniques have hyperparameters that you need to optimize to achieve best performance
-- for each ML model, decide which parameters to tune and what values to try
-- loop through each parameter combination
-    - train one model for each parameter combination
-    - evaluate how well the model performs on the validation set
-- take the parameter combo that gives the best validation score
-- evaluate that model on the test set to report how well the model is expected to perform on previously unseen data
-7. Interpret your model: black boxes are often not useful
-- check if your model uses features that make sense (excellent tool for debugging)
-- often model predictions are not enough, you need to be able to explain how the model arrived to a particular prediction (e.g., in health care)
+## **Project Overview**
+- **Objective**: Predict used car prices using machine learning models.
+- **Dataset**: Sourced from [Kaggle](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset), containing **4009 rows** and **10 features**.
+- **Methods**:
+  - Preprocessing: Categorical encoding (OneHotEncoder), XGB-based imputation, StandardScaler.
+  - Model Evaluation: Looping over 5 random states, cross-validation, and GridSearch for hyperparameter tuning.
+  - Feature Importance: Global (permutation, gain, weight) and local (SHAP force plots) interpretability.
+
+## **Results**
+- **Top Model**: XGBoost Regressor  
+- **Best Metrics**:  
+    - MAE: 0.0854  
+    - RMSE: 0.1107  
+    - R²: 0.9041  
+
+## **Python and Package Versions**
+The project was developed using the following tools:  
+
+- **Python**: 3.12.5  
+- **Key Packages**:  
+    - `pandas==2.2.2`  
+    - `numpy==1.26.4`  
+    - `scikit-learn==1.5.1`  
+    - `py-xgboost==2.1.1`  
+    - `shap==0.45.1`  
+    - `matplotlib==3.9.2`  
+    - `plotly==5.23.0`  
+
+For easy setup, install the dependencies via the provided **environment.yaml** file.
+
+---
+
+## **Setup Instructions**
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/lshiyu4210/used_car_price_prediction.git
+   cd used_car_price_prediction
+   ```
+
+2. Create a virtual environment:
+   ```bash
+   conda env create -f environment_updated.yaml
+   conda activate used_car
+   ```
+
+3. Run the pipeline:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## **environment.yaml**
+
+The updated environment file is provided as **environment_updated.yaml**.
+
+---
+
+## **Acknowledgments**
+- **Dataset**: [Used Car Price Prediction Dataset](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)  
+- **References**:  
+   - Valarmathi et al., 2023  
+   - Yılmaz & Selvi, 2023  
