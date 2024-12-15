@@ -38,7 +38,7 @@ For easy setup, install the dependencies via the provided **environment.yaml** f
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/lshiyu4210/used_car_price_prediction.git
+   git clone git@github.com:lshiyu4210/used_car_price_prediction.git
    cd used_car_price_prediction
    ```
 
@@ -48,16 +48,12 @@ For easy setup, install the dependencies via the provided **environment.yaml** f
    conda activate used_car
    ```
 
-3. Run the pipeline:
-   ```bash
-   python main.py
-   ```
 
 ---
 
 ## **environment.yaml**
 
-The updated environment file is provided as **environment_updated.yaml**.
+The updated environment file is provided as **environment.yaml**.
 
 ---
 
