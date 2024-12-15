@@ -1,0 +1,7 @@
+Model,Z_MAE,Z_RMSE,Z_R2
+Lasso,31.220,18.799,66.616
+Ridge,62.239,15.926,38.542
+ElasticNet,41.511,20.838,66.974
+RandomForestRegressor,52.295,16.243,42.823
+KNeighborsRegressor,68.785,19.561,56.550
+XGBRegressor,87.835,15.923,40.075

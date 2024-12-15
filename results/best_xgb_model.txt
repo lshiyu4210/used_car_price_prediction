@@ -1,7 +1,7 @@
 Best Overall Models:
 
 Metric: neg_mean_absolute_error
-  Best Score: 0.0845
+  Best Score: 0.0854
   Random State: 84
   Best Parameters:
     objective: reg:squarederror
@@ -45,7 +45,7 @@ Metric: neg_mean_absolute_error
     verbosity: None
 
 Metric: neg_root_mean_squared_error
-  Best Score: 0.1105
+  Best Score: 0.1107
   Random State: 84
   Best Parameters:
     objective: reg:squarederror
@@ -75,7 +75,7 @@ Metric: neg_root_mean_squared_error
     missing: nan
     monotone_constraints: None
     multi_strategy: None
-    n_estimators: 500
+    n_estimators: 1000
     n_jobs: None
     num_parallel_tree: None
     random_state: 84
@@ -89,7 +89,7 @@ Metric: neg_root_mean_squared_error
     verbosity: None
 
 Metric: r2
-  Best Score: 0.9045
+  Best Score: 0.9041
   Random State: 84
   Best Parameters:
     objective: reg:squarederror
@@ -119,7 +119,7 @@ Metric: r2
     missing: nan
     monotone_constraints: None
     multi_strategy: None
-    n_estimators: 500
+    n_estimators: 1000
     n_jobs: None
     num_parallel_tree: None
     random_state: 84
